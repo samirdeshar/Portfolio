@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>My Cybersecurity Portfolio</h1>
+            <div class="theme-toggle-container">
+                <input type="checkbox" id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                <label for="theme-toggle" class="theme-toggle-label">
+                    <span class="toggle-icon sun">🌞</span>
+                    <span class="toggle-icon moon">🌙</span>
+                </label>
+            </div>
+        </div>
+    </header>
+    <aside class="nav-icons">
+        <div class="nav-icon" data-target="home">🏠</div>
+        <div class="nav-icon" data-target="projects">📁</div>
+        <div class="nav-icon" data-target="about">ℹ️</div>
+        <div class="nav-icon" data-target="contact">✉️</div>
+    </aside>
+    <main id="content">
+        <div class="terminal-container">
+            <div class="terminal" id="home">
+                <div class="terminal-header">
+                    <span class="title">Home Terminal</span>
+                    <div class="terminal-controls">
+                        <div class="terminal-control minimize"></div>
+                        <div class="terminal-control close"></div>
+                    </div>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="terminal-prompt">user@root:~$</span> Welcome to my cybersecurity portfolio!</p>
+                </div>
+            </div>
+            <div class="terminal" id="projects">
+                <div class="terminal-header">
+                    <span class="title">Projects Terminal</span>
+                    <div class="terminal-controls">
+                        <div class="terminal-control minimize"></div>
+                        <div class="terminal-control close"></div>
+                    </div>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="terminal-prompt">user@root:~$</span> Explore my projects and experience.</p>
+                </div>
+            </div>
+            <div class="terminal" id="about">
+                <div class="terminal-header">
+                    <span class="title">About Terminal</span>
+                    <div class="terminal-controls">
+                        <div class="terminal-control minimize"></div>
+                        <div class="terminal-control close"></div>
+                    </div>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="terminal-prompt">user@root:~$</span> Learn more about me and my background.</p>
+                </div>
+            </div>
+            <div class="terminal" id="contact">
+                <div class="terminal-header">
+                    <span class="title">Contact Terminal</span>
+                    <div class="terminal-controls">
+                        <div class="terminal-control minimize"></div>
+                        <div class="terminal-control close"></div>
+                    </div>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="terminal-prompt">user@root:~$</span> Get in touch with me!</p>
+                </div>
+            </div>
+        </div>
+        <div class="minimized-tabs">
+            <!-- Minimized terminal tabs will be added here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Cybersecurity Portfolio</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
